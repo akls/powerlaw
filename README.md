@@ -5,8 +5,9 @@ This code can be used to estimate the alpha parameter for discrete, truncated po
 
 An example to estimate parameters can be found in `getLLR.m`. The example estimates power law and exponential (`distname='geom'`) distribution parameters using the log-likelihood ratio. For the power law, use `distname='zeta'`. For the exponential distribution, use `distname='geom'`. For the log-normal distribution, use `distname='logn'`.
 
-<img src="Example output.png" height="150">
-
+<p align="center">
+<img src="Example output.png" height="400">
+</p>
 
 `avsz.txt` contains an example of power law distributed values.
 
